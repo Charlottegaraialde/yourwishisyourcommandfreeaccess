@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -10,14 +13,14 @@ export default {
         'navy': {
           800: '#0f1c3a',
           900: '#091328',
-          950: '#050a17'
+          950: '#0a192f'
         },
         'gold': {
           50: '#fffbeb',
           100: '#fef3c7',
           200: '#fde68a',
           300: '#fcd34d',
-          400: '#cfaa4a',
+          400: '#d4af37',
         }
       },
       boxShadow: {

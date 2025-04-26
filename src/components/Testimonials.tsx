@@ -21,7 +21,7 @@ const VimeoPlayer: React.FC<VimeoPlayerProps> = ({ videoId, title }) => {
   );
 };
 
-const Testimonials: React.FC = () => {
+const Testimonials = () => {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://player.vimeo.com/api/player.js';
