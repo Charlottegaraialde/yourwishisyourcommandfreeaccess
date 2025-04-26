@@ -1,5 +1,6 @@
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { AccessPage } from './components/AccessPage';
 import Testimonials from './components/Testimonials';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="font-serif">
       <Header />
       <Hero />
+      <AccessPage />
       <Testimonials />
     </div>
   );

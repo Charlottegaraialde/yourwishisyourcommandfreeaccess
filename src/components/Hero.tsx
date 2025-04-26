@@ -14,14 +14,14 @@ export const Hero = () => {
         </p>
         <div className="flex justify-center">
           <a
-            href="#testimonials"
+            href="#access"
             className="bg-gold-400 text-navy-950 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gold-300 transition-colors shadow-gold"
           >
-            Get Free Access
+            Access The Audios
           </a>
         </div>
         
-        <div className="mt-16 flex justify-center">
+        <div className="mt-32 flex justify-center">
           <div className="animate-bounce">
             <ArrowDown className="w-8 h-8 text-gold-400" />
           </div>

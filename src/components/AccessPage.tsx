@@ -32,7 +32,7 @@ export const AccessPage: React.FC = () => {
             href="https://www.yourwishoffer.com/order-form-md25?aff=0afdb7e9710ccd4b0513dbc41a58c351e0f9df732596d4b586ee25161a4755bd"
             className="block w-full bg-gold-400 text-navy-950 text-center py-4 rounded-md font-bold hover:bg-gold-300 transition-colors"
           >
-            Access Your Audios Now
+            Get Instant Access
           </a>
 
           <p className="text-sm text-gray-400 mt-4 text-center">
