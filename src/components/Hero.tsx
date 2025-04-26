@@ -20,28 +20,29 @@ export const Hero: React.FC = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-10 text-gray-300 leading-relaxed">
-            The powerful knowledge that secret societies have guarded for centuries, is now within your reach.
+            The powerful knowledge that secret societies have guarded<br />
+            for centuries, by the elite class, is now within your reach.
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a 
-              href="#access" 
-              className="px-8 py-3 bg-gold-400 text-navy-950 rounded-md font-semibold hover:bg-gold-300 transition-all transform hover:scale-105 shadow-lg"
-            >
-              Access Free Audios
-            </a>
-            <a 
-              href="#about" 
-              className="px-8 py-3 border-2 border-gold-400 text-gold-400 rounded-md font-semibold hover:bg-gold-400/10 transition-all"
-            >
-              Learn More
-            </a>
-          </div>
-          
-          <div className="mt-2 text-sm text-gold-200 flex items-center justify-center">
-            <div className="w-12 h-12 rounded-full border-2 border-gold-400 flex items-center justify-center animate-bounce">
+          <div className="flex flex-col items-center gap-8">
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <a 
+                href="#access" 
+                className="px-8 py-3 bg-gold-400 text-navy-950 rounded-md font-semibold hover:bg-gold-300 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Access Free Audios
+              </a>
+              <a 
+                href="#about" 
+                className="px-8 py-3 border-2 border-gold-400 text-gold-400 rounded-md font-semibold hover:bg-gold-400/10 transition-all"
+              >
+                Learn More
+              </a>
+            </div>
+            
+            <div className="w-10 h-10 rounded-full border-2 border-gold-400 flex items-center justify-center animate-bounce">
               <svg 
-                className="w-4 h-4 text-gold-400" 
+                className="w-3 h-3 text-gold-400" 
                 fill="none" 
                 strokeLinecap="round" 
                 strokeLinejoin="round" 
@@ -53,6 +54,10 @@ export const Hero: React.FC = () => {
               </svg>
             </div>
           </div>
+          
+          <p className="text-sm text-gold-200 mt-4">
+            Credit card required. Instant access by email after entering promo code.
+          </p>
         </div>
       </div>
     </section>

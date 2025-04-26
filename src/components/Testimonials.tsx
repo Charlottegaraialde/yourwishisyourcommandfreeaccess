@@ -21,9 +21,8 @@ const VimeoPlayer: React.FC<VimeoPlayerProps> = ({ videoId, title }) => {
   );
 };
 
-export const Testimonials: React.FC = () => {
+const Testimonials: React.FC = () => {
   useEffect(() => {
-    // Charger le script Vimeo Player
     const script = document.createElement('script');
     script.src = 'https://player.vimeo.com/api/player.js';
     script.async = true;
@@ -59,3 +58,5 @@ export const Testimonials: React.FC = () => {
     </section>
   );
 };
+
+export default Testimonials;

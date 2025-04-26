@@ -19,8 +19,7 @@ export const Footer: React.FC = () => {
                 { name: 'Home', link: '#home' },
                 { name: 'About', link: '#about' },
                 { name: 'Audio Collection', link: '#audio-collection' },
-                { name: 'Testimonials', link: '#testimonials' },
-                { name: 'Access Audios', link: '/access' }
+                { name: 'Testimonials', link: '#testimonials' }
               ].map((item) => (
                 <li key={item.name}>
                   <a 

@@ -5,7 +5,6 @@ import { SecretKnowledge } from './components/SecretKnowledge';
 import { AudioCollection } from './components/AudioCollection';
 import { Testimonials } from './components/Testimonials';
 import { Footer } from './components/Footer';
-import { AccessPage } from './components/AccessPage';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <SecretKnowledge />
         <AudioCollection />
         <Testimonials />
-        <AccessPage />
       </main>
       <Footer />
     </div>
