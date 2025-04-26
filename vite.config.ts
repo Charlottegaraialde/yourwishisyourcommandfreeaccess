@@ -8,11 +8,8 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   build: {
-    rollupOptions: {
-      input: {
-        main: './index.html',
-      },
-    },
+    outDir: 'dist',
     assetsDir: 'assets',
   },
+  publicDir: 'public',
 });
