@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { MenuIcon, X } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,13 +15,43 @@ export const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-navy-950/80 backdrop-blur-sm z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-gold-400">
-          YWIYC
+    <header 
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-navy-950 shadow-lg py-2' : 'bg-transparent py-6'
+      }`}
+    >
+      <div className="container mx-auto px-0 sm:px-4 flex justify-between items-center">
+        <div className="flex items-center -ml-8 sm:-ml-4">
+          <h1 className="text-2xl md:text-3xl font-bold tracking-wider text-gold-400">
+            YOUR WISH IS YOUR COMMAND
+          </h1>
         </div>
-        <button className="text-white p-2 hover:text-gold-400 transition-colors">
-          <Menu size={24} />
+        
+        <div className="flex-1"></div>
+        
+        <nav className="hidden md:flex space-x-8 items-center pr-4">
+          {['Home', 'About', 'Audio Collection', 'Testimonials'].map((item) => (
+            <a 
+              key={item} 
+              href={`#${item.toLowerCase().replace(' ', '-')}`}
+              className="text-lg font-semibold text-gold-50 hover:text-gold-400 transition-colors"
+            >
+              {item}
+            </a>
+          ))}
+          <a 
+            href="https://www.yourwishoffer.com/order-form-md25?aff=0afdb7e9710ccd4b0513dbc41a58c351e0f9df732596d4b586ee25161a4755bd" 
+            className="bg-gold-400 text-navy-950 px-6 py-2 rounded hover:bg-gold-300 transition-colors text-lg font-semibold"
+          >
+            Access Audios
+          </a>
+        </nav>
+        
+        <button 
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-gold-400 focus:outline-none pr-4"
+        >
+          {isOpen ? <X size={24} /> : <MenuIcon size={24} />}
         </button>
       </div>
       
@@ -34,7 +64,7 @@ export const Header: React.FC = () => {
                 <a 
                   key={item} 
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
-                  className="text-gold-50 hover:text-gold-400 transition-colors py-2"
+                  className="text-lg font-semibold text-gold-50 hover:text-gold-400 transition-colors py-2"
                   onClick={() => setIsOpen(false)}
                 >
                   {item}
@@ -42,9 +72,7 @@ export const Header: React.FC = () => {
               ))}
               <a 
                 href="https://www.yourwishoffer.com/order-form-md25?aff=0afdb7e9710ccd4b0513dbc41a58c351e0f9df732596d4b586ee25161a4755bd"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gold-400 text-navy-950 px-4 py-2 rounded hover:bg-gold-300 transition-colors inline-block"
+                className="bg-gold-400 text-navy-950 px-6 py-2 rounded hover:bg-gold-300 transition-colors inline-block text-lg font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 Access Audios
