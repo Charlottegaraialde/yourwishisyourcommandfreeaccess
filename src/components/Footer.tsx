@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
       <div className="w-full mx-auto px-4 text-center text-xl md:text-2xl">
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-            <h3 className="text-4xl md:text-5xl font-bold tracking-wider text-gold-400 mb-4">YOUR WISH IS YOUR COMMAND</h3>
+            <h3 className="text-lg md:text-xl font-extrabold tracking-wider text-gold-400 mb-4">YOUR WISH IS YOUR COMMAND</h3>
             <p className="text-gray-400 mb-6 leading-relaxed text-lg md:text-xl font-bold">
               Revealing the secrets of manifestation and success that has been hidden<br />
               from the public, for centuries, by the elite class.

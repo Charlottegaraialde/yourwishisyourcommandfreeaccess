@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AudioCollection: React.FC = () => {
   return (
-    <section id="audio-collection" className="pt-2 pb-20">
+    <section id="audio-collection" className="pt-0 pb-20">
       <div className="w-full max-w-3xl mx-auto text-center px-2">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-2">
           <span className="text-white">14 Life-Changing </span><span className="text-gold-400">Audio Revelations</span>

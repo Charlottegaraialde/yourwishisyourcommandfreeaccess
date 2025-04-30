@@ -34,8 +34,8 @@ export const Hero: React.FC = () => {
               Learn More
             </a>
           </div>
-          <div className="flex justify-center w-full mt-12">
-            <div className="w-12 h-12 rounded-full border-2 border-gold-400 flex items-center justify-center animate-bounce">
+          <div className="flex justify-center items-center w-full">
+            <div className="w-12 h-12 rounded-full border-2 border-gold-400 flex items-center justify-center animate-bounce mx-auto">
               <svg 
                 className="w-6 h-6 text-gold-400" 
                 fill="none" 
