@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'serif': ['"Times New Roman"', 'Georgia', 'Cambria', 'serif'],
+        'serif': ['Cormorant Garamond', 'Georgia', 'Cambria', 'serif'],
       },
       colors: {
         'navy': {

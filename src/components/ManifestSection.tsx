@@ -3,15 +3,15 @@ import React from 'react';
 export const ManifestSection: React.FC = () => {
   return (
     <section className="pt-2 pb-0 relative">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-6">
+      <div className="w-full mx-auto px-4">
+        <div className="w-full md:max-w-3xl mx-auto text-center px-2">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
             The Knowledge <span className="text-gold-400">They Don't Want You to Know</span>
           </h2>
           <div className="h-1 w-24 bg-gold-400 mx-auto mb-2"></div>
         </div>
         
-        <div className="max-w-3xl mx-auto">
+        <div className="w-full md:max-w-3xl mx-auto text-center px-2">
           <div className="mb-4">
             <img 
               src="/images/hero-bg.jpg.jpg" 

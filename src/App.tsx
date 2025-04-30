@@ -9,14 +9,19 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="font-serif text-gray-100 min-h-screen relative bg-navy-950">
+    <div className="w-full min-h-screen overflow-x-hidden font-serif">
       <div 
-        className="fixed inset-0 bg-[url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg')] bg-cover bg-center opacity-30"
-      ></div>
-      <div className="fixed inset-0 bg-gradient-to-b from-navy-950/95 to-transparent opacity-95"></div>
-      <div className="relative">
+        className="fixed inset-0 bg-cover bg-center opacity-30 -z-20"
+        style={{
+          backgroundImage: "url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg')"
+        }}
+      />
+      <div
+        className="fixed inset-0 bg-gradient-to-b from-navy-950/95 to-transparent opacity-95 -z-10"
+      />
+      <div className="relative w-full">
         <Header />
-        <main style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+        <main className="w-full flex flex-col">
           <Hero />
           <ManifestSection />
           <SecretKnowledge />

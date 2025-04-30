@@ -17,12 +17,12 @@ export const Header: React.FC = () => {
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-navy-950 shadow-lg py-2' : 'bg-transparent py-6'
+        isScrolled ? 'bg-navy-950 shadow-lg py-2' : 'bg-transparent py-4 md:py-6'
       }`}
     >
-      <div className="container mx-auto px-0 sm:px-4 flex justify-between items-center">
-        <div className="flex items-center -ml-8 sm:-ml-4">
-          <h1 className="text-2xl md:text-3xl font-bold tracking-wider text-gold-400">
+      <div className="w-full mx-auto px-4 sm:px-6 flex justify-between items-center">
+        <div className="flex items-center -ml-0 sm:-ml-8">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-wider text-gold-400">
             YOUR WISH IS YOUR COMMAND
           </h1>
         </div>
@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
         
         <button 
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-gold-400 focus:outline-none pr-4"
+          className="md:hidden text-gold-400 focus:outline-none pr-0"
         >
           {isOpen ? <X size={24} /> : <MenuIcon size={24} />}
         </button>
@@ -57,14 +57,14 @@ export const Header: React.FC = () => {
       
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-navy-900 border-t border-gold-800">
-          <div className="container mx-auto px-4 py-2">
+        <div className="md:hidden bg-navy-900/95 backdrop-blur-sm border-t border-gold-800">
+          <div className="w-full mx-auto px-4 py-2">
             <nav className="flex flex-col space-y-4 py-4">
               {['Home', 'About', 'Audio Collection', 'Testimonials'].map((item) => (
                 <a 
                   key={item} 
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
-                  className="text-lg font-semibold text-gold-50 hover:text-gold-400 transition-colors py-2"
+                  className="text-base font-semibold text-gold-50 hover:text-gold-400 transition-colors py-2 text-center"
                   onClick={() => setIsOpen(false)}
                 >
                   {item}
@@ -72,7 +72,7 @@ export const Header: React.FC = () => {
               ))}
               <a 
                 href="https://www.yourwishoffer.com/order-form-md25?aff=0afdb7e9710ccd4b0513dbc41a58c351e0f9df732596d4b586ee25161a4755bd"
-                className="bg-gold-400 text-navy-950 px-6 py-2 rounded hover:bg-gold-300 transition-colors inline-block text-lg font-semibold"
+                className="bg-gold-400 text-navy-950 px-6 py-2 rounded hover:bg-gold-300 transition-colors text-base font-semibold text-center mx-auto w-[80%]"
                 onClick={() => setIsOpen(false)}
               >
                 Access Audios

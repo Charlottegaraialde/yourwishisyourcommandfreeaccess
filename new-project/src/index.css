@@ -17,3 +17,12 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
+@media (max-width: 768px) {
+  body, #root, .relative, .w-full, .container, .max-w-3xl, main, section {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
