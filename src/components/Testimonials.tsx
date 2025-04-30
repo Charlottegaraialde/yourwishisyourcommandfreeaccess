@@ -11,7 +11,7 @@ export const Testimonials: React.FC = () => {
             <span className="text-white">Lives and People </span><span className="text-gold-400">Transformed</span>
           </h2>
           <div className="h-1 w-24 bg-gold-400 mx-auto mb-6"></div>
-          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed whitespace-nowrap">
+          <p className="text-lg md:text-2xl text-gray-300 leading-relaxed break-words px-4">
             Hear from those who have already experienced the power of these exclusive teachings.
           </p>
         </div>
