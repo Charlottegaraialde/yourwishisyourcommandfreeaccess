@@ -16,6 +16,7 @@ function App() {
           backgroundImage: "url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg')"
         }}
       />
+      <div className="fixed inset-0 bg-navy-950/80 z-[-40]" />
       <div className="relative w-full">
         <Header />
         <main className="w-full flex flex-col">

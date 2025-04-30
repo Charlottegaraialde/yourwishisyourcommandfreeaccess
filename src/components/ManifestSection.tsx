@@ -6,7 +6,7 @@ export const ManifestSection: React.FC = () => {
       <div className="w-full mx-auto px-4">
         <div className="w-full md:max-w-3xl mx-auto text-center px-2">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            The Knowledge <span className="text-gold-400">They Don't Want You to Know</span>
+            <span className="text-white">The Knowledge </span><span className="text-gold-400">They Don't Want You to Know</span>
           </h2>
           <div className="h-1 w-24 bg-gold-400 mx-auto mb-2"></div>
         </div>
