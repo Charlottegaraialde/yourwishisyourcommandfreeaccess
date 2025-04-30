@@ -17,7 +17,7 @@ function App() {
         }}
       />
       <div
-        className="fixed inset-0 bg-gradient-to-b from-navy-950/10 to-transparent opacity-60 -z-10"
+        className="fixed inset-0 bg-gradient-to-b from-navy-950/5 to-transparent opacity-20 -z-10"
       />
       <div className="relative w-full">
         <Header />

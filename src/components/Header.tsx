@@ -20,8 +20,8 @@ export const Header: React.FC = () => {
         isScrolled ? 'bg-navy-950 shadow-lg py-2' : 'bg-transparent py-4 md:py-6'
       }`}
     >
-      <div className="w-full mx-auto px-4 sm:px-6 flex justify-between items-center">
-        <div className="flex items-center -ml-0 sm:-ml-8">
+      <div className="w-full mx-auto px-4 sm:px-8 flex justify-between items-center">
+        <div className="flex items-center">
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-wider text-gold-400">
             YOUR WISH IS YOUR COMMAND
           </h1>
