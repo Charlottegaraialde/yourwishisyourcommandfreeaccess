@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="w-full min-h-screen overflow-x-hidden font-serif">
       <div 
-        className="fixed inset-0 bg-cover bg-center opacity-30 -z-20"
+        className="fixed inset-0 bg-cover bg-center z-[-50]"
         style={{
           backgroundImage: "url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg')"
         }}
