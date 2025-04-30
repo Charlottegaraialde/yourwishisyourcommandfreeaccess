@@ -4,17 +4,19 @@ export const AudioCollection: React.FC = () => {
   return (
     <section id="audio-collection" className="pt-2 pb-20">
       <div className="w-full max-w-3xl mx-auto text-center px-2">
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-2">
           <span className="text-white">14 Life-Changing </span><span className="text-gold-400">Audio Revelations</span>
         </h2>
         <div className="h-1 w-24 bg-gold-400 mx-auto mb-4"></div>
-        <p className="text-xl md:text-2xl text-gray-300 leading-relaxed my-8">
+        <p className="text-lg md:text-2xl text-gray-300 leading-relaxed my-8 break-words font-bold">
           These powerful audios have transformed the lives of thousands of people worldwide. 
           Access them all for FREE with promo code <span className="text-gold-400 font-bold">YWIYC</span>
         </p>
         <div className="w-full md:max-w-3xl mx-auto border border-gold-800/50 rounded-lg p-8 px-2">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">Unlock the 14 Audios for <span className="text-gold-400">FREE</span></h3>
-          <p className="text-xl md:text-2xl mb-6 text-gray-300">
+          <h3 className="text-2xl md:text-3xl font-extrabold mb-4">
+            <span className="text-white font-extrabold">Unlock the 14 Audios for </span><span className="text-gold-400">FREE</span>
+          </h3>
+          <p className="text-lg md:text-2xl mb-6 text-gray-300 font-bold">
             Use the exclusive promo code below to get instant access<br />
             to all 14 audios, valued at $500.
           </p>
