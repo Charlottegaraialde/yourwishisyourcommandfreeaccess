@@ -22,33 +22,33 @@ export const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto mb-6">
             <a 
               href="https://www.yourwishoffer.com/order-form-md25?aff=0afdb7e9710ccd4b0513dbc41a58c351e0f9df732596d4b586ee25161a4755bd"
-              className="w-full max-w-xs sm:w-auto px-8 py-3 bg-gold-400 text-navy-950 rounded hover:bg-gold-300 transition-colors text-xl sm:text-2xl font-bold text-center border-2 border-gold-400"
+              className="w-full max-w-xs sm:w-auto px-8 py-3 bg-gold-400 text-navy-950 rounded hover:bg-gold-300 transition-colors text-xl sm:text-2xl font-bold font-serif text-center border-2 border-gold-400"
               target="_blank"
               rel="noopener noreferrer"
             >
               Access Free Audios
             </a>
+            <div className="flex justify-center items-center">
+              <div className="w-12 h-12 rounded-full border-2 border-gold-400 flex items-center justify-center animate-bounce mx-auto">
+                <svg 
+                  className="w-6 h-6 text-gold-400" 
+                  fill="none" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth="3" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor"
+                >
+                  <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+              </div>
+            </div>
             <a 
               href="#about" 
-              className="w-full max-w-xs sm:w-auto px-8 py-3 border-2 border-gold-400 text-gold-400 rounded hover:bg-gold-400/10 transition-all text-xl sm:text-2xl font-bold text-center"
+              className="w-full max-w-xs sm:w-auto px-8 py-3 border-2 border-gold-400 text-gold-400 rounded hover:bg-gold-400/10 transition-all text-xl sm:text-2xl font-bold font-serif text-center"
             >
               Learn More
             </a>
-          </div>
-          <div className="flex justify-center mt-2">
-            <div className="w-12 h-12 rounded-full border-2 border-gold-400 flex items-center justify-center animate-bounce">
-              <svg 
-                className="w-6 h-6 text-gold-400" 
-                fill="none" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth="3" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor"
-              >
-                <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-              </svg>
-            </div>
           </div>
         </div>
       </div>

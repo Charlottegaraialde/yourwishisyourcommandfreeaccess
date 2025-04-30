@@ -3,7 +3,7 @@ import React from 'react';
 export const Footer: React.FC = () => {
   return (
     <footer className="border-t border-gold-800/30 pt-16 pb-8">
-      <div className="w-full mx-auto px-4 text-center">
+      <div className="w-full mx-auto px-4 text-center text-base md:text-lg">
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
             <h3 className="text-2xl font-bold tracking-wider text-gold-400 mb-4">YOUR WISH IS YOUR COMMAND</h3>
