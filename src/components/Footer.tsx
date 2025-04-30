@@ -8,8 +8,8 @@ export const Footer: React.FC = () => {
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
             <h3 className="text-2xl md:text-3xl font-extrabold tracking-wider text-gold-400 mb-4">YOUR WISH IS YOUR COMMAND</h3>
             <p className="text-gray-400 mb-6 leading-relaxed text-lg md:text-xl font-bold">
-              Revealing the secrets of manifestation and success that has been hidden<br />
-              from the public, for centuries, by the elite class.
+              Revealing the secrets of manifestation and success<br />
+              that has been hidden from the public for centuries.
             </p>
           </div>
           

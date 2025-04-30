@@ -20,7 +20,7 @@ export const ManifestSection: React.FC = () => {
             />
           </div>
           
-          <div className="text-gray-300 space-y-2 text-lg md:text-2xl mt-4">
+          <div className="text-gray-300 space-y-2 text-xl md:text-3xl mt-4">
             <p className="text-center text-gold-400 font-bold">
               Do you want more from life?
             </p>
